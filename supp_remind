@@ -1,0 +1,47 @@
+*user interview*
+Supplements Scheduler
+Problem:
+I take 10+ supplements for my general health as well as for athletic performance. It's very hard to remember when to take which supplement and when. Some need to be taken on an empty stomach while others need to be taken with after a meal. Some need to be taken on rest days while others need to be taken on workout days.
+Solution:
+Give me an easy supplements reminder with rudimentary logic built into it. Bonus points if it can remind me when to restock my supplements.
+*/user interview*
+
+
+
+EPIC:
+As a user of multiple supplements, I want the app to remind me when and how to take my supplements and when to buy additional supplements, so that I can maintain my health and fitness.
+
+
+User story 1
+As an app user, I want the app to store full details of all the supplements that I take, so that I can get detailed and helpful reminders
+Notes: Details will include name of supplement, number of units to take at any time, and conditions under which the supplement should be taken (full/empty stomach; rest day vs workout day)
+
+Sub-story 1.1
+As an app user, I want the app to allow me to enter the following details for a large number of supplements – name; number of units; full/ empty stomach; rest/ workout day – so that I can get accurate reminders.
+
+
+User story 2 
+As an app user, I want the app to generate reminders at the appropriate times and days for each supplement, so that I can take the correct supplements at the optimal times.
+
+Sub-story 2.1
+As an app user, I want the app to accept input from me as to whether today is a workout day or not, so that I can get reminders for which supplements I need to take on that day
+
+Sub-story 2.2
+As an app user, I want to be able to tell the app when I have eaten a meal, so that it can tell whether I have a full or empty stomach
+
+Sub-story 2.3
+As an app user, I want the app to use the date supplied in S-s 2.1 and 2.2, together with the data on each supplement provided in S-s 1.1, to calculate the appropriate time to take each supplement and communicate this via reminders, so that I take the correct supplements at the correct time.
+
+
+User story 3
+As an app user, I want the app to store the unit number of each supplement and generate a reminder to buy more when I am running low, so that I never run out of any supplement. 
+
+Sub-story 3.1
+As an app user, I want the app to reduce the number of units by the correct amount every time I take some units of any supplement, so that it maintains the correct number.
+/*This is probably best achieved by having some kind of “Took them/ skipped this” input feature on each reminder*/
+
+Sub-story 3.2
+As an app user, I want the app to store data for each supplement on how long it takes to fill an order for new units, so that it can calculate the correct lead time for ordering each supplement.
+
+Sub-story 3.3
+As an app user, I want the app to use the data supplied in S-s 3.3 to generate a reminder (n+1) days before I am due to run out of any supplement (where n is the lead time from S-s 3.2) so that I can order new units in plenty of time to avoid running out.
